@@ -1,7 +1,7 @@
 ---
 title: Video Face Swap
-emoji: 🦀
-colorFrom: yellow
+emoji: 👱🏻‍♀️
+colorFrom: pink
 colorTo: indigo
 sdk: gradio
 sdk_version: 3.50.2
