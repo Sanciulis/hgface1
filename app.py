@@ -204,7 +204,7 @@ with gr.Blocks(theme=get_theme(),api_name=False, api_open=False, show_api=False)
                 inputs=[source_image_video, target_video, unique_id, frame_processor_checkbox, face_analyser_direction_dropdown, face_analyser_age_dropdown, face_analyser_gender_dropdown, skip_audio, keep_fps, keep_temp],
                 outputs=video_output,
                 fn=run,
-                cache_examples=True
+                cache_examples=False
                )
     
             
