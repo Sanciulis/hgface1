@@ -199,13 +199,14 @@ with gr.Blocks(theme=get_theme(),api_name=False, api_open=False, show_api=False)
     )
     clear_video_button.click(fn=clear_output, inputs=unique_id)
 
+    """
     gr.Examples(examples=[['bella1.jpg','./wiz-ex1.mp4', unique_id.value, frame_processor_checkbox.value, face_analyser_direction_dropdown.value, face_analyser_age_dropdown.value, face_analyser_gender_dropdown.value, skip_audio.value, keep_fps.value, keep_temp.value]], 
                 inputs=[source_image_video, target_video, unique_id, frame_processor_checkbox, face_analyser_direction_dropdown, face_analyser_age_dropdown, face_analyser_gender_dropdown, skip_audio, keep_fps, keep_temp],
                 outputs=video_output,
                 fn=run,
                 cache_examples=True
                )
-                
+    """
             
 
 ui.launch(debug=True)
