@@ -6,7 +6,7 @@ colorTo: indigo
 sdk: gradio
 sdk_version: 4.39.0
 app_file: app.py
-pinned: false
+pinned: true
 disable_embedding: true
 short_description: Video deep fake (uncensored)
 ---
